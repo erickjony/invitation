@@ -40,20 +40,20 @@ a, a:link, a:visited {
 
 h1 {
     font-family: "Cormorant Garamond", serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .floating {

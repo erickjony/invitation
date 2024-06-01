@@ -1,2 +1,0 @@
-# invitation
-Invitación digital personalizada

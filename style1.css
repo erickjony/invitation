@@ -40,14 +40,14 @@ a, a:link, a:visited {
 
 h1 {
     font-family: "Cormorant Garamond", serif;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 600;
 }
 
 h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 p {
@@ -67,7 +67,6 @@ p {
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
 
@@ -75,6 +74,49 @@ p {
     font-size: 48px;
     margin-top: 16px;
 }
+
+
+#demo {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .floating {
+        width: 50px;
+        height: 50px;
+        bottom: 30px;
+        right: 30px;        
+    }
+    .fab-icon {
+        font-size: 32px;
+        margin-top: 8px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+    .LuisM-span{
+        font-size: 1500%;
+    }
+    #demo {
+        font-size: 24px;
+    }
+    .footer-content {
+        margin: 32px 0 32px 0;
+        flex-direction: column !important;
+    }
+}
+
+
 
 .seccion-contador {
     background: linear-gradient(to right, rgb(0 0 0 / 0.6),rgb(0 0 0 / 0.9)),url(banner/flowersback2.jpg);
@@ -110,8 +152,9 @@ p {
 
 }
 
-#demo {
-    text-align: center;
-    font-size: 60px;
-    margin-top: 0px;
-}
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
